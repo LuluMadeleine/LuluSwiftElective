@@ -88,8 +88,20 @@ class QuestionViewController: UIViewController {
             performSegueWithIdentifier("ShowQuestion", sender: nil)
         } else {
             navigationController?.popToRootViewControllerAnimated(true)
+            //showOutcomeScreen
         }
     }
+    
+    /*Funktion für Wechsel zum OutcomeScreen
+    private func showOutcomeScreen() {
+        if questions?.count > 0 {
+            performSegueWithIdentifier("ShowQuestion", sender: nil)
+        } else {
+            navigationController?.popToRootViewControllerAnimated(true)
+            //showOutcomeScreen
+        }
+    }*/
+
     
     // MARK: - Navigation
     

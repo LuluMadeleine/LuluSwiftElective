@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Omn-w8-oLg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Omn-w8-oLg">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -81,7 +81,7 @@
             </objects>
             <point key="canvasLocation" x="1058" y="452"/>
         </scene>
-        <!--Question-->
+        <!--Frage-->
         <scene sceneID="ymq-Nt-oJ2">
             <objects>
                 <viewController id="aF3-oQ-0Ui" customClass="QuestionViewController" customModule="Swift_Project01_Quiz" customModuleProvider="target" sceneMemberID="viewController">
@@ -203,7 +203,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" title="Question" id="Ud7-5O-Csj"/>
+                    <navigationItem key="navigationItem" title="Frage" id="Ud7-5O-Csj"/>
                     <connections>
                         <outlet property="answer1Button" destination="CyW-kj-yZH" id="M0M-0v-4a7"/>
                         <outlet property="answer2Button" destination="mhn-oO-gvz" id="711-K0-Xzl"/>
@@ -215,6 +215,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hVU-6i-C2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1754" y="453"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dnu-xa-0dq">
+            <objects>
+                <viewController id="EIv-iQ-01w" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bdV-M8-leH"/>
+                        <viewControllerLayoutGuide type="bottom" id="MhH-gV-dKK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v0H-A6-Yff">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPe-tj-lOC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2430" y="452"/>
         </scene>
     </scenes>
     <resources>

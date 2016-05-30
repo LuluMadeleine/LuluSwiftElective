@@ -14,6 +14,7 @@
 		0C41132D1CC50C930072B9A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C41132B1CC50C930072B9A6 /* LaunchScreen.storyboard */; };
 		0C4113351CC531790072B9A6 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4113341CC531790072B9A6 /* QuestionViewController.swift */; };
 		0C91B4291CD78B5300C5B3C3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C91B4281CD78B5300C5B3C3 /* Question.swift */; };
+		0CA160E31CFC80940016A599 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA160E21CFC80940016A599 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0C41132E1CC50C930072B9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C4113341CC531790072B9A6 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		0C91B4281CD78B5300C5B3C3 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		0CA160E21CFC80940016A599 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				0C41132E1CC50C930072B9A6 /* Info.plist */,
 				0C4113341CC531790072B9A6 /* QuestionViewController.swift */,
 				0C91B4281CD78B5300C5B3C3 /* Question.swift */,
+				0CA160E21CFC80940016A599 /* Category.swift */,
 			);
 			path = Swift_Project01_Quiz;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C4113251CC50C930072B9A6 /* ViewController.swift in Sources */,
+				0CA160E31CFC80940016A599 /* Category.swift in Sources */,
 				0C91B4291CD78B5300C5B3C3 /* Question.swift in Sources */,
 				0C4113231CC50C930072B9A6 /* AppDelegate.swift in Sources */,
 				0C4113351CC531790072B9A6 /* QuestionViewController.swift in Sources */,
